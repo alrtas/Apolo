@@ -3,8 +3,8 @@ Projeto para criação de modulo de registro treinamentos para empresa.
 
 
 ## Tecnologias utilizadas neste projeto
-* [PHP](https://www.php.net/)
-* [Bootstrap](https://getbootstrap.com/) - HTML5 + CSS3 + JavaScript
+* [PHP 7.4](https://www.php.net/)
+* [Bootstrap 4](https://getbootstrap.com/) - HTML5 + CSS3 + JavaScript
 * [MySQL](https://www.mysql.com/)
 
 ## Requisitos funcionais
