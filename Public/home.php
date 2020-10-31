@@ -1,7 +1,7 @@
 <?
-    include(dirname(__DIR__).DIRECTORY_SEPARATOR.join(DIRECTORY_SEPARATOR, array('Views','header.php' )));
+    include(dirname(__DIR__).DIRECTORY_SEPARATOR.join(DIRECTORY_SEPARATOR, array('views','header.php' )));
     setHeaders('Home');
-    include(dirname(__DIR__).DIRECTORY_SEPARATOR.join(DIRECTORY_SEPARATOR, array('Views','navbar.php' )));
+    include(dirname(__DIR__).DIRECTORY_SEPARATOR.join(DIRECTORY_SEPARATOR, array('views','navbar.php' )));
 ?>
     <div class="h-100 d-flex justify-content-center">
         <div class="col-md-7 col-sm-9 my-auto">
@@ -14,9 +14,6 @@
         </div>
     </div>
 
-
-
-
 <?
-    include(dirname(__DIR__).DIRECTORY_SEPARATOR.join(DIRECTORY_SEPARATOR, array('Views','footer.php' )));
+    include(dirname(__DIR__).DIRECTORY_SEPARATOR.join(DIRECTORY_SEPARATOR, array('views','footer.php' )));
 ?>

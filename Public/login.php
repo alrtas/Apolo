@@ -1,5 +1,5 @@
 <?
-    $path =join(DIRECTORY_SEPARATOR, array('Views','header.php' ));
+    $path =join(DIRECTORY_SEPARATOR, array('views','header.php' ));
     include(dirname(__DIR__).DIRECTORY_SEPARATOR.$path);
 
     setHeaders('Login');

@@ -16,8 +16,8 @@
                         COLABORADORES
                     </a>
                     <div class="dropdown-menu bg-dark">
-                        <a class="dropdown-item text-white" href="visualizar-colaboradores.php">Visualizar</a>
-                        <a class="dropdown-item text-white" href="criar-colaboradores.php">Criar</a>
+                        <a class="dropdown-item text-white" href="/colaboradores/visualizar-colaboradores.php">Visualizar</a>
+                        <a class="dropdown-item text-white" href="/colaboradores/criar-colaboradores.php">Criar</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -25,8 +25,8 @@
                         TREINAMENTOS
                     </a>
                     <div class="dropdown-menu  bg-dark">
-                        <a class="dropdown-item text-white" href="visualizar-treinamentos.php">Visualizar</a>
-                        <a class="dropdown-item text-white" href="criar-treinamentos.php">Criar</a>
+                        <a class="dropdown-item text-white" href="/treinamentos/visualizar-treinamentos.php">Visualizar</a>
+                        <a class="dropdown-item text-white" href="/treinamentos/criar-treinamentos.php">Criar</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -34,12 +34,12 @@
                         TURMAS
                     </a>
                     <div class="dropdown-menu bg-dark">
-                        <a class="dropdown-item text-white" href="visualizar-turmas.php">Visualizar</a>
-                        <a class="dropdown-item text-white" href="criar-turmas.php">Criar</a>
+                        <a class="dropdown-item text-white" href="/turmas/visualizar-turmas.php">Visualizar</a>
+                        <a class="dropdown-item text-white" href="/turmas/criar-turmas.php">Criar</a>
                     </div>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-white mr-3" href="dashboard.php">DASHBOARDS</a>
+                    <a class="nav-link text-white mr-3" href="/dashboard/dashboard.php">DASHBOARDS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mr-3" href="logout.php"><b>SAIR</b></a>
