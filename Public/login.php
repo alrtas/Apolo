@@ -1,23 +1,14 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<?
+    $path =join(DIRECTORY_SEPARATOR, array('Views','header.php' ));
+    include(dirname(__DIR__).DIRECTORY_SEPARATOR.$path);
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <style type="text/css">
-        html, body {
-            height: 100%;
-        }
-    </style>
+    setHeaders('Login');
+?>
 
-    <title>Login</title>
-  </head>
-  <body style="background-color: #2A2A2A">
+
+  <body>
     <div class="h-100 d-flex justify-content-center">
-        <div class="col-md-9 col-sm-12 my-auto">
+        <div class="col-md-7 col-sm-9 my-auto">
             <div class="card text-center">
                 <div class="card-header">
                     Apolo | Login
