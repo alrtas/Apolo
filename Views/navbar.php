@@ -4,13 +4,17 @@
 
 ?>
 
-<nav class="navbar navbar-static-top" style="background-color: #cd422b;">
+<nav class="navbar navbar-light navbar-static-top navbar-expand-sm" style="background-color: #cd422b;">
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand text-white" href="#">Apolo Project</a>
         </div>
-        <form class="form-inline">
-            <button class="btn btn-sm btn-outline-white" type="button">Smaller button</button>
+        <form class="form-inline text-white">
+            <button class="btn btn-sm btn-outline-light ml-2" type="button"><b>COLABORADORES</b></button>
+            <button class="btn btn-sm btn-outline-light ml-2" type="button"><b>TREINAMENTOS</b></button>
+            <button class="btn btn-sm btn-outline-light ml-2" type="button"><b>TURMAS</b></button>
+            <button class="btn btn-sm btn-outline-light mx-2" type="button"><b>DASHBOARDS</b></button>
+            <button class="btn btn-sm btn-outline-dark ml-5" type="button"><b>SAIR</b></button>
         </form>
     </div>
 
