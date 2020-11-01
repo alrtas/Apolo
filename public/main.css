@@ -1,0 +1,24 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #2A2A2A;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer .container-fluid {
+    height: 40px;
+  }
+  
+  .footer .container {
+    padding-top: 20px;
+  }

@@ -3,7 +3,7 @@
 function setHeaders($title){
     echo ('
                 <!doctype html>
-                <html lang="en">
+                <html lang="pt-BR">
                     <head>
                         <meta charset="utf-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,15 +15,39 @@ function setHeaders($title){
                         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
                         
                         <style type="text/css">
-                            html, body {
+
+                            html {
+                                position: relative;
+                                min-height: 100%;
+                            }
+                            body {
                                 height: 100%;
                                 background-color: #2A2A2A;
                             }
-                        </style>
-
-                        
+                            ::-webkit-scrollbar {
+                                width: 0px;
+                            }
+                            .footer {
+                                position: absolute;
+                                bottom: 0;
+                                width: 100%;
+                              }
+                              
+                              .footer .container-fluid {
+                                height: 0px;
+                              }
+                              
+                              .footer .container {
+                                padding-top: 0px;
+                              }
+                              th {text-align:center}
+                              td {text-align:center}
+  
+                        </style> 
                         <title>'.$title.'</title>
-                    </head>'
+                    </head>
+                    <body>
+                    '
             );
 }
 

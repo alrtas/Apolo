@@ -1,7 +1,7 @@
-<footer class="page-footer font-small blue pt-4 text-white fixed-bottom"  style="background-color: #cd422b">
+<footer class="page-footer font-small blue pt-3 text-white"  style="background-color: #cd422b">
   <div class="container-fluid text-center text-md-left">
     <div class="row">
-        <div class="col-md-6 mt-md-0 mt-3">
+        <div class="col-md-5 mt-md-0 mt-3 ml-5">
             <h5 class="text-uppercase">Projeto Apolo</h5>
             <p>Aplicação Open-Source criada com a intenção de facilitar a administração dos treinamentos realizados em empresas, focando nas necessidade da area de atendimento ao cliente.</p>
         </div>
@@ -30,3 +30,5 @@
   </div>
   <div class="footer-copyright text-center py-3" style="background-color: #bf3d28">© 2020 Copyright</div>
 </footer>
+</body>
+</html>

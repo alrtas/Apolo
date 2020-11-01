@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light navbar-static-top navbar-expand-md w-100 " style="background-color: #cd422b;">
+<nav class="navbar navbar-light navbar-static-top navbar-expand-md w-100 fixed-top" style="background-color: #cd422b;">
     <div class="container"> 
         <div class="col">
             <a class="navbar-brand text-white" href="/home.php">Apolo Project</a>
