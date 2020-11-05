@@ -14,8 +14,7 @@ class Turma
     private $carga;
 
 
-    public function __construct($nome, $treinamento, $dataInicio, $horaInicio, $dataFinal,$        $this->horaFinal        = $horaFinal;
-    ,$dataFinal, $participantes)
+    public function __construct($nome, $treinamento, $dataInicio, $horaInicio, $dataFinal, $horaFinal ,$dataFinal, $participantes)
     {
         $this->instrutor        = $nome;
         $this->treinamento      = $treinamento;
@@ -82,7 +81,7 @@ class Turma
     }
     public function setDataFinal($dataFinal): void
     {
-        $this->dataFinal = $dataFinal
+        $this->dataFinal = $dataFinal;
     }
     public function setHoraFinal($horaFinal): void
     {
